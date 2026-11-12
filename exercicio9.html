@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 9 - Controle de estoque</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/exercicio9.js" defer></script>
+</head>
+<body>
+  <header><h1>Exercício 9 – Controle de estoque</h1><p>Atividade de HTML, CSS e JavaScript</p></header>
+  <main><section class="card">
+    
+<label for="nome">Nome do produto:</label><input id="nome" type="text">
+<label for="quantidade">Quantidade:</label><input id="quantidade" type="number" min="1" step="1">
+<label for="preco">Preço unitário (R$):</label><input id="preco" type="number" min="0" step="0.01">
+<button id="cadastrar">Cadastrar produto</button>
+<p id="mensagem" class="resultado" aria-live="polite"></p>
+<div id="lista"></div>
+<p id="total" class="resumo">Valor total do estoque: R$ 0,00</p>
+
+    <a class="link-voltar" href="index.html">← Voltar ao menu</a>
+  </section></main>
+  <footer>Atividades de JavaScript</footer>
+</body>
+</html>
